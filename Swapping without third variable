@@ -1,0 +1,12 @@
+print("Enter two numbers to be swapped :")
+a= input ("\n")
+b= input ("")
+a=int(a)
+b=int(b)
+
+a=a+b
+b=a-b
+a=a-b
+print("The swapped numbers are : ")
+print(a)
+print(b)
